@@ -117,7 +117,7 @@ public class BouncingBall {
 					canvas.repaint();
 					// sleep for a while
 					try {
-						Thread.sleep(100);
+						Thread.sleep(10);
 					} catch(Exception ex) {}
 				}
 			}
