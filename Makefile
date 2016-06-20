@@ -6,9 +6,13 @@ BouncingBall:
 	@javac -d bin src/*.java
 	@echo "compilation complete."
 
-run:
+run1:
 	@echo "running BouncingBall..."
 	@java -cp bin/ Bouncing.BouncingBall
+
+run2:
+	@echo "running BouncingBalls..."
+	@java -cp bin/ Bouncing.BouncingBalls
 
 clean:
 	@echo "cleaning up..."
